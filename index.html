@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>xercice 4 JS</title>
+    </head>
+    <body>
+        <form>
+            <label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname"/>
+            <label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname"/>
+            <label for="city">Ville : </label><input type="text" name="city" id="city"/>
+            <button  name="submit" id="submit" onclick="formulaire()">Valider</button>
+</form>
+        <script type="text/javascript">
+            function formulaire(){
+                // alert(lastname.value);
+                // alert(firstname.value);
+                // alert(city.value);
+                alert("Nom : "+lastname.value+"\nPrénom : "+firstname.value+"\nVille : "+city.value);
+            }
+        </script>
+
+    </body>
+</html>
